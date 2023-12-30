@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Hero from '../hero/hero.svelte';
-	import First from '../components/first.svelte';
 	import Second from '../components/second.svelte';
 
 	let showingFirst = true;

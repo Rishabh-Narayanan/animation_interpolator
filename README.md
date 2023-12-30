@@ -21,13 +21,16 @@ I tried using elk.js and cytoscape to create a graph as a complicated example of
 Run `pnpm run dev` and visit `localhost:5173`
 
 At `/`, a grid will be shown where the user can press `Swap` to animate the elements swapping randomly in position
+
 ![SwapGrid.gif](static/SwapGrid.gif)
 
 At `/graph`, a set of nodes, each with a set of neighbors will be shown. The user can press a specific node and that node
 will move to the center, with all other neighbors in a circle around it. The positions animate
+
 ![Graph.gif](static/Graph.gif)
 
 At `/navigation`, two buttons to navigate between two routes will be shown. You can navigate between routes to interpolate
+
 ![Navigation.gif](static/Navigation.gif)
 
 ## Using the library
